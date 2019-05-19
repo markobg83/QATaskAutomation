@@ -1,0 +1,11 @@
+
+Zadatak je radjen kombinaciji Java/Selenium/TestNG, u razvojnom okruzenju Eclipse.
+Klase su organizovane po Page object modelu. Nakon import-a projekta treba ici u paket 'tests' odakle
+se mogu pustati testovi, takodje mogu i iz testng.xml fajla (samo je potrebno dve linije otkomentarisati u 
+testovima).
+
+Jar i drivers fajlovi su u projektu sa relativnim putanjama, tako da tu ne bi trebalo da bude dodatnih podesavanja.
+Klasa koja radi sa WebDriver-om je utils\DriverSetup.java gde su podeseni Chrome i Firefox.
+
+Github adresa:
+https://github.com/markobg83/QATaskAutomation/tree/v1
