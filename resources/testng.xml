@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Tests" parallel="classes">
+   <test name="FirsTest">
+     <parameter name="browser" value="firefox" />
+    <classes>    
+          <class name="tests.UploadProfileImage"/>
+   </classes> 
+  </test> 
+     <test name="SecondTest">
+       <parameter name="browser" value="firefox" />
+     <classes>      
+        <class name="tests.CreateTopicAndConclusion"/>
+     </classes> 
+  </test>   
+     <test name="ThirdTest">
+       <parameter name="browser" value="firefox" />
+     <classes>      
+        <class name="tests.CheckConcludedTopic"/>
+     </classes> 
+  </test>    
+</suite>
